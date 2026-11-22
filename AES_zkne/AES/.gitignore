@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Build output
+build/
+obj_dir/
+target/
+*.o
+*.d
+*.elf
+*.bin
+*.vmem
+*.dis
+*.bit
+*.pdi
+
+# IDE and tool output
+.vscode/
+.theia/
+.Xil/
+logs/
+.repo.yaml
+.peers.ini
+.lock
+*.zip
+*.log
+*.jou
+*.backup.*
+*.swp
+*.wdb
+*.str
+*.cache/
+*.runs/
+*.hw/
+*.sim/
+.ip_user_files/

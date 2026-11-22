@@ -1,0 +1,73 @@
+# Python environments and caches (at any depth)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Software, FuseSoC, and Verilator build outputs
+build/
+/builds/
+obj_dir/
+target/
+*.o
+*.d
+*.elf
+*.dis
+
+# Generated application data; keep vendor binary/memory source assets
+**/AES/received_file.bin
+
+# Vivado generated projects, runs, and simulation output
+.Xil/
+*.cache/
+*.runs/
+*.hw/
+*.sim/
+*.gen/
+*.ip_user_files/
+ip_user_files/
+*.bit
+*.pdi
+*.dcp
+*.wdb
+*.str
+*.jou
+*.backup.*
+*.vcd
+*.fst
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local editor and tool settings
+.vscode/
+.idea/
+.theia/
+.repo.yaml
+.peers.ini
+.lock
+/.codex/
+/.agents/
+
+# Local credentials and environment configuration
+/.aws/
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Archived copies of the projects
+/*.zip
+**/AES/vivado/ibex-demo-system.zip
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
